@@ -1,0 +1,49 @@
+.wrapper {
+  max-width: 1400px;
+}
+
+.img {
+  width: 100%;
+  max-height: 1000px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.bodyOverflow {
+  overflow: hidden;
+}
+
+.conteiner {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 10px;
+}
+
+.list {
+  display: flex;
+  gap: 50px;
+}
+
+.item {
+  text-align: center;
+}
+
+.link {
+  background-color: blue;
+  padding: 3px 10px;
+  border-radius: 5px;
+  border: 1px solid blue;
+  color: white;
+  text-transform: uppercase;
+}
+
+.textPoint {
+  color: red;
+}
